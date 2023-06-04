@@ -15,10 +15,7 @@ SECRET_KEY = '09cdb70c63848b7fff7f1849075ba268f72c9bc29b547d34'
 DEBUG = (os.environ.get('DEBUG_VALUE') == 'True')
 
 ALLOWED_HOSTS = [
-    'localhost',
-    'https://bytewalk.herokuapp.com/',
-    'https://bytewalk.me',
-    'http://bytewalk.me'
+    'localhost'
 ]
 
 
